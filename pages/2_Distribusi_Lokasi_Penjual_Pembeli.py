@@ -4,11 +4,6 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Perbandingan persebaran lokasi penjual dengan pembeli")
 
-st.sidebar.success("Berikut Penjelasannya!!!")
-st.sidebar.info(
-    """Berdasarkan distribusi lokasi penjual, Sao Paulo memiliki jumlah penjual terbanyak dengan 694 penjual, diikuti oleh Curitiba (127 penjual) dan Rio de Janeiro (96 penjual). Sedangkan dari distribusi lokasi pembeli, Sao Paulo juga mendominasi dengan 15,540 pembeli, diikuti oleh Rio de Janeiro (6,882 pembeli) dan Belo Horizonte (2,773 pembeli). Analisis ini menunjukkan bahwa Sao Paulo menjadi pusat aktivitas perdagangan yang signifikan, baik sebagai lokasi penjual maupun pembeli. Curitiba dan Rio de Janeiro juga menonjol sebagai lokasi dengan aktivitas perdagangan yang cukup tinggi."""
-)
-
 sellers_df = pd.read_csv('pages/sellers_dataset.csv')
 customers_df = pd.read_csv('pages/customers_dataset.csv')
 
